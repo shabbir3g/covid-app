@@ -3,30 +3,22 @@ import { spacing } from "../../theme/spacing";
 import { typography } from "../../theme/typography";
 
 const BASE = {
-    fontFamily: typography.TextSecondary,
-    fontSize: spacing[4],
-    color: colors.lightPurple
+    fontFamily: typography.Regular,
+    fontSize: 14,
 }
 
 const BOLD = {
-    fontFamily: typography.TextPrimary,
-    color: colors.darkPurple
+    fontFamily: typography.Bold,
+    fontSize: spacing[6],
 }
 
 export const presets = {
     default: BASE,
     bold: BOLD,
-    h1: {
-        ...BOLD,
-        fontSize: spacing[9]
+    medium: {
+        fontFamily: typography.Medium,
+        fontSize: spacing[5]
     },
-    h2: {
-        ...BOLD,
-        fontSize: spacing[8]
-    },
-    h3: {
-        ...BOLD,
-        fontSize: spacing[7]
-    },
+   
 
 }

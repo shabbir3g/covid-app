@@ -1,4 +1,6 @@
 export const typography = {
-    TextPrimary: 'SPProDisplay',
-    TextSecondary: 'SFProText',
+    Bold: 'GraphikBold',
+    Medium: 'GraphikMedium',
+    Regular: 'GraphikRegular',
+
 }
